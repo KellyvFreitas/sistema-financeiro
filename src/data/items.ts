@@ -1,39 +1,27 @@
 import { Item } from "../types/Item";
 export const items: Item[] = [
   {
-    date: new Date(2021, 9, 15),
+    date: new Date(2021, 9, 6),
     category: "food",
-    title: "Faculdade",
-    value: 300.85,
+    title: "McDonalds",
+    value: 32.12,
   },
   {
     date: new Date(2021, 9, 15),
     category: "food",
-    title: "BurguerYou",
-    value: 46.18,
+    title: "Burger King",
+    value: 28,
   },
   {
-    date: new Date(2021, 9, 15),
-    category: "food",
-    title: "Cartão",
-    value: 3600.8,
+    date: new Date(2021, 9, 16),
+    category: "rent",
+    title: "Aluguel Apt",
+    value: 2300,
   },
   {
-    date: new Date(2021, 9, 15),
-    category: "food",
-    title: "Mercantil",
-    value: 700.8,
-  },
-  {
-    date: new Date(2021, 9, 15),
-    category: "food",
-    title: "SalarioCFY",
-    value: 1400.0,
-  },
-  {
-    date: new Date(2021, 9, 15),
-    category: "food",
-    title: "SalarioTrixx",
-    value: 1000.0,
+    date: new Date(2021, 10, 18),
+    category: "salary",
+    title: "Salário ACME",
+    value: 4500,
   },
 ];
